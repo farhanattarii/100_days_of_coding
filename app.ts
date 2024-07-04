@@ -432,3 +432,39 @@
 
 // console.log(squareDeclaration(4)); // Outputs: 16
 // console.log(squareExpression(4)); // Outputs: 16
+
+//                        Question : 79
+// let car = {
+//   make: "Toyota",
+//   model: "Corolla",
+//   year: 2020,
+// };
+
+// console.log(car.model);
+
+//                        Question : 80
+
+// let car:any = {
+//   make: "Toyota",
+//   model: "Camry",
+//   year: 2023
+// };
+// car.color = "Silver";
+
+// car.year = 2021;
+
+// console.log(car);
+
+//                         Question : 81 
+
+// function logObjectProperties(obj: object) {
+//   for (let property in obj) {
+//     console.log(`${property}: ${obj[property]}`);
+//   }
+// }
+// logObjectProperties({
+//   make: "Toyota",
+//   model: "Corolla",
+//   year: 2021,
+//   color: "blue",
+// });
