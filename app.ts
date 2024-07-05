@@ -468,3 +468,36 @@
 //   year: 2021,
 //   color: "blue",
 // });
+
+//                           Question : 82
+
+
+
+// function stringLength(input: string): number {
+//   return input.length;
+// }
+
+// console.log(stringLength("farhan"));// outputs: 6
+
+//                          Question : 83
+
+// function convertCase(str: string) {
+//   let upperStr = str.toUpperCase(); 
+//   let lowerStr = str.toLowerCase();
+
+//   console.log("Uppercase:", upperStr, "Lowercase:", lowerStr);
+// }
+
+// convertCase("Hello World");
+
+//                           Question : 84
+
+// function replaceJavaScriptWithTypeScript(sentence: string): string {
+//   return sentence.replace(/JavaScript/g, "TypeScript");
+// }
+
+// console.log(
+//   replaceJavaScriptWithTypeScript(
+//     "I love JavaScript and JavaScript is awesome!"
+//   )
+// );
