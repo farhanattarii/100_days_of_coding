@@ -501,3 +501,50 @@
 //     "I love JavaScript and JavaScript is awesome!"
 //   )
 // );
+
+//                            Question : 85
+
+// function findCodePosition(str: string): number {
+  // return str.indexOf("with");
+// }
+
+// console.log(findCodePosition("Learn to code with JavaScript"));
+
+//                            Question : 86
+
+// function hasJavaScript(str: string): boolean {
+//   return str.includes("JavaScript"); 
+// }
+// console.log(hasJavaScript("I love coding in JavaScript!"));
+
+//                             Question : 87
+
+// function extractFirstTenChars(str: string): string {
+//   return str.substring(0, 10);
+// }
+
+// console.log(extractFirstTenChars("Learn to code with JavaScript"));
+
+//                              Question : 88
+
+// function convertStringToNumber(str: string): number {
+//   return Number(str);
+// }
+
+// console.log(convertStringToNumber("123")); 
+
+//                              Question : 89
+
+// function roundToTwoDecimalPlaces(num: number): number {
+//   return Number(num.toFixed(2)); // Rounds and converts back to number
+// }
+
+// console.log(roundToTwoDecimalPlaces(3.14159));
+
+//                              Question : 90
+
+
+// function generateRandomNumber(): number {
+//     return Math.floor(Math.random() * 10) + 1;
+// }
+// console.log(generateRandomNumber());
